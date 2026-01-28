@@ -1,6 +1,7 @@
 import pandas as pd
 
 def clean_city_data(df):
+    
     # Normalise column names
     df.columns = df.columns.str.strip()
     df.columns = df.columns.str.lower()

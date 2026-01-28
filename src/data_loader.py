@@ -1,6 +1,7 @@
 import pandas as pd
 
 def load_cities(file_path="data/raw/worldcities.csv"):
+    
     # Load CSV
     df = pd.read_csv(file_path)
 
